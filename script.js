@@ -1,8 +1,8 @@
 // complete the given function
 
 function palindrome(str){
- let reversed = str.split('').reverse().join('');
-  return str === reversed;
+let reversedStr = str.split('').reverse().join('');
+    return str === reversedStr;
 	
 }
 module.exports = palindrome
